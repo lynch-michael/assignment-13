@@ -1,0 +1,19 @@
+public class Member 
+{
+    private String name;
+    private String membershipID;
+    
+    public Member(String name, String membershipID) 
+    {
+        this.name = name;
+        this.membershipID = membershipID;
+    }
+    public String getName() 
+    {
+        return name;
+    }
+    public String getMembershipID() 
+    {
+        return membershipID;
+    }
+}
