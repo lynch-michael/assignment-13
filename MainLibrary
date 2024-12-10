@@ -1,0 +1,19 @@
+public class MainLibrary 
+{
+    public static void main(String[] args) 
+    {
+        Member member = new Member("Michael", "M001");
+        
+        Library library = new Library();
+        
+        library.registerMember(member);
+        
+        library.lendBookToMember(library.getBook1());
+        
+        library.returnBookFromMember(library.getBook1());
+        
+        library.lendBookToMember(library.getBook2());
+        
+        library.returnBookFromMember(library.getBook2());
+    }
+}
